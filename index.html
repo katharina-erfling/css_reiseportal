@@ -8,12 +8,19 @@
 </head>
 <body>
 
-
-
     <nav>
-        <div><a href="../../index.html">
-            <img src="img/aviation_logo-22.jpg">
-        </a></div>
+        <div>
+            <a href="../../index.html">
+                <img src="img/aviation_logo-22.jpg" alt="Aviation Portal Logo">
+            </a>
+        </div>
+
+        <!-- Hamburger Button (Mobile) -->
+        <button class="nav-toggle" aria-label="Menü öffnen" onclick="this.closest('nav').querySelector('div:last-child').classList.toggle('open')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
 
         <div>
             <ul>
@@ -23,49 +30,38 @@
                 <li><a href="#">contact us</a></li>
             </ul>
         </div>
-
-
     </nav>
 
 
-<header>
-    <div class="karte">
-        <img src="img/christine-roy-ir5MHI6rPg0-unsplash.jpg">
-    </div>
-
-    <div class="search-box">
-        <div class="tab-bar">
-            <div class="flight-tab active">
-                <span class="plane-icon">✈</span> Flight
-            </div>
+    <header>
+        <div class="karte">
+            <img src="img/christine-roy-ir5MHI6rPg0-unsplash.jpg" alt="">
         </div>
-        
-        <h1>Travel the world with us</h1>
-        
-        <form>
-            <div class="form-row">
-                <div class="form-group">
-                    <label>From</label>
-                    <input type="text" placeholder="Departing from">
-                </div>
-                <div class="form-group">
-                    <label>To</label>
-                    <input type="text" placeholder="Arriving at">
+
+        <div class="search-box">
+            <div class="tab-bar">
+                <div class="flight-tab">
+                    <span class="plane-icon">✈</span> Flight
                 </div>
             </div>
-            <button type="submit" class="search-btn">Search And Find Dates</button>
-        </form>
-    </div>
-</header>
-
-
-
-
-
+            
+            <h1>Travel the world with us</h1>
+            
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="from">From</label>
+                        <input type="text" id="from" placeholder="Departing from">
+                    </div>
+                    <div class="form-group">
+                        <label for="to">To</label>
+                        <input type="text" id="to" placeholder="Arriving at">
+                    </div>
+                </div>
+                <button type="submit" class="search-btn">Search And Find Dates</button>
+            </form>
+        </div>
     </header>
-
-
-
 
 
     <main>
@@ -73,7 +69,7 @@
         <!-- Our Destinations Section -->
         <section class="gallery-head">
             <h2>Our Destinations</h2>
-            <h4>Up to 50% discount</h4>
+            <p>Up to 50% discount</p>
         </section>
 
         <section class="gallery">
@@ -92,7 +88,7 @@
         <!-- Our Gallery Section -->
         <section class="gallery-head">
             <h2>Our Gallery</h2>
-            <h4>Explore some of our past adventures</h4>
+            <p>Explore some of our past adventures</p>
         </section>
 
         <div class="gallery-2">
@@ -103,6 +99,7 @@
             <figure><img src="img/timo-stern-iUBgeNeyVy8-unsplash.jpg" alt="Küstenstraße"></figure>
             <figure><img src="img/gaddafi-rusli-2ueUnL4CkV8-unsplash.jpg" alt="Landschaft"></figure>
         </div>
+
     </main>
 
     <footer>
@@ -110,20 +107,9 @@
             <li>Heading</li>
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li> 
-            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
         </ul>
-
-
-
-
-
-
     </footer>
-
-
-
-
-
 
 </body>
 </html>
