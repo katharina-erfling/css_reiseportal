@@ -1,3 +1,6 @@
+
+<img width="1889" height="892" alt="Screenshot 2026-03-18 181335" src="https://github.com/user-attachments/assets/1b028b10-d1f3-4d61-8736-efa84079441d" />
+
 # ✈️ UI/UX Prototype – Reiseportal
 
 Ein responsiver Frontend-Prototype für ein Reiseportal, erstellt mit purem HTML und CSS – kein Framework, kein JavaScript-Build-Tool.
